@@ -19,7 +19,7 @@ jobs:
   run:
     needs:
       - init
-    uses: milaboratory/github-ci/.github/workflows/node-simple-pnpm.yaml@MILAB-7081_npm-trusted-publishing
+    uses: milaboratory/github-ci/.github/workflows/node-simple-pnpm.yaml@MILAB-7081_canary
     with:
       app-name: 'npm trusted publishing canary'
       app-name-slug: 'npm-trusted-publishing-test'
