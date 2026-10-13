@@ -29,6 +29,7 @@ jobs:
       build-script-name: 'build'
       pnpm-recursive-build: false
       test: false
+      pnpm-recursive-tests: false
       team-id: 'ciplopen'
 
       package-path: 'pkg'
