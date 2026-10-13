@@ -42,7 +42,7 @@ jobs:
       # fallback; after the trusted publishers exist, flip to false so the
       # next release can only succeed through OIDC.
       npm-trusted-publishing: true
-      npm-token-fallback: true
+      npm-token-fallback: false
 
       npmrc-config: |
         {
