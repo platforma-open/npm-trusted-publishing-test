@@ -1,12 +1,8 @@
 {
   "name": "@platforma-open/milaboratories.npm-trusted-publishing-test.lib",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Canary package for npm trusted publishing in github-ci (MILAB-7081). Not for use.",
   "license": "UNLICENSED",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/platforma-open/npm-trusted-publishing-test.git"
-  },
   "main": "index.js",
   "files": [
     "index.js",
