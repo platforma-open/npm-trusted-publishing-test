@@ -1,0 +1,16 @@
+{
+  "name": "@platforma-open/milaboratories.npm-trusted-publishing-test",
+  "version": "0.0.1",
+  "description": "Canary package for npm trusted publishing in github-ci (MILAB-7081). Not for use.",
+  "license": "UNLICENSED",
+  "repository": { "type": "git", "url": "git+https://github.com/platforma-open/npm-trusted-publishing-test.git" },
+  "main": "index.js",
+  "files": ["index.js", "published-from.txt"],
+  "dependencies": {
+    "@platforma-open/milaboratories.npm-trusted-publishing-test.lib": "workspace:*"
+  },
+  "scripts": {
+    "build": "echo build pkg",
+    "prepublishOnly": "echo \"prepublishOnly ran on ${RUNNER_NAME:-local} (${RUNNER_ENVIRONMENT:-unknown})\" | tee published-from.txt"
+  }
+}

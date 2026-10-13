@@ -1,0 +1,12 @@
+{
+  "name": "npm-trusted-publishing-test",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r run build",
+    "version-packages": "changeset version"
+  },
+  "devDependencies": {
+    "@changesets/cli": "catalog:"
+  },
+  "packageManager": "pnpm@9.12.0"
+}
