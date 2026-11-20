@@ -20,6 +20,8 @@ importers:
 
   lib: {}
 
+  new: {}
+
   pkg:
     dependencies:
       '@platforma-open/milaboratories.npm-trusted-publishing-test.lib':
