@@ -11,5 +11,6 @@
   "scripts": {
     "build": "echo build e2e-new",
     "prepublishOnly": "echo \"prepublishOnly ran on ${RUNNER_NAME:-local} (${RUNNER_ENVIRONMENT:-unknown})\" | tee published-from.txt"
-  }
+  },
+  "private": true
 }
