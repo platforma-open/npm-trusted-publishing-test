@@ -18,8 +18,6 @@ importers:
         specifier: 'catalog:'
         version: 2.29.8
 
-  foreign: {}
-
   lib: {}
 
   new: {}
