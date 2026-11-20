@@ -1,0 +1,15 @@
+{
+  "name": "@platforma-open/milaboratories.npm-trusted-publishing-test.e2e-foreign",
+  "version": "0.0.0",
+  "description": "Canary package for publishing @platforma-open to npm.platforma.bio (end-to-end test). Not for use.",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "published-from.txt"
+  ],
+  "scripts": {
+    "build": "echo build e2e-foreign",
+    "prepublishOnly": "echo \"prepublishOnly ran on ${RUNNER_NAME:-local} (${RUNNER_ENVIRONMENT:-unknown})\" | tee published-from.txt"
+  }
+}
